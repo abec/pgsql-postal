@@ -45,6 +45,8 @@ This extension is for that.
 
 If you have PostgreSQL devel packages and CURL devel packages installed, you should have `pg_config` on your path. Confirm by running `which pg_config`.
 
+If you are using libpostal 1.0 or newer, make sure to checkout branch **1.0**: `git checkout 1.0`.
+
 Edit the paths to `POSTAL_INCLUDE` and `POSTAL_LIBS` in the `Makefile` to refer to your `libpostal` install location, and then run:
 
     make
